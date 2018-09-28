@@ -18,7 +18,8 @@
     "test": "roadhog test",
     "test:component": "roadhog test ./app/assets/components",
     "test:all": "node ./tests/run-tests.js",
-    "prettier": "prettier --write ./app/assets/**/**/**/*"
+    "prettier": "prettier --write ./app/assets/**/**/**/*",
+    "dev": "egg-bin dev"
   },
   "dependencies": {
     "@antv/data-set": "^0.8.0",
@@ -46,7 +47,9 @@
     "react-fittext": "^1.0.0",
     "rollbar": "^2.3.4",
     "setprototypeof": "^1.1.0",
-    "url-polyfill": "^1.0.10"
+    "url-polyfill": "^1.0.10",
+    "egg": "^2.11.2",
+    "egg-scripts": "^2.9.1"
   },
   "devDependencies": {
     "babel-eslint": "^8.1.2",
@@ -57,7 +60,7 @@
     "cross-env": "^5.1.1",
     "cross-port-killer": "^1.0.1",
     "enzyme": "^3.1.0",
-    "eslint": "^5.0.0",
+    "eslint": "^5.6.0",
     "eslint-config-airbnb": "^17.0.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-babel": "^5.1.0",
@@ -79,7 +82,14 @@
     "roadhog-api-doc": "^1.1.2",
     "stylelint": "^9.2.1",
     "stylelint-config-prettier": "^3.0.4",
-    "stylelint-config-standard": "^18.0.0"
+    "stylelint-config-standard": "^18.0.0",
+    "autod": "^3.0.1",
+    "autod-egg": "^1.1.0",
+    "egg-bin": "^4.9.0",
+    "egg-ci": "^1.9.1",
+    "egg-mock": "^3.20.1",
+    "eslint-config-egg": "^7.1.0",
+    "webstorm-disable-index": "^1.2.0"
   },
   "optionalDependencies": {
     "puppeteer": "^1.4.0"
