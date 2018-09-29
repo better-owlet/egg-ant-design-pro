@@ -26,7 +26,7 @@ module.exports = appInfo => {
   // };
 
   config.assets = {
-    templatePath: path.join(appInfo.baseDir, 'app/view/index.ejs'),
+    templatePath: path.join(appInfo.baseDir, 'app/view/index.html'),
     templateViewEngine: 'nunjucks',
     publicPath: '/public/',
     devServer: {
